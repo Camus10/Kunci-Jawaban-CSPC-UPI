@@ -28,11 +28,11 @@ for(back = 0, front = 1; (back < newStringTangga.length && front < newStringTang
         for(push = 0; push < newStringTangga[back].length / 2; push++){
             tempSpace = tempSpace + space;
         }
-        console.log(tempSpace + newStringTangga[front])
+        console.log(tempSpace + newStringTangga[front]);
     }if(newStringTangga[back].length % 2 != 0){
         for(push = 0; push < newStringTangga[back].length / 2 - 0.5; push++){
             tempSpace = tempSpace + space;
         }
-        console.log(tempSpace + newStringTangga[front])
+        console.log(tempSpace + newStringTangga[front]);
     }
 }
