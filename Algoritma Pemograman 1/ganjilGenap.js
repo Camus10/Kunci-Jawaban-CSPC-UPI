@@ -13,6 +13,8 @@ function GanjilGenap(randomNumber){
         for(compile = 0; compile < 3; compile++){
             console.log(tempEven[compile] + "\n" + tempOdd[compile])
         }
+    }else{
+        console.log("Tidak Valid");
     }
 }
 let formInput1 = [41, 23, 35, 22, 12, 44];
