@@ -28,11 +28,6 @@ let decimalList = {
     "z" : 26,
 };
 
-let a = "a";
-console.log(enkripsi.split(""))
-console.log(enkripsi[0], enkripsi[1], enkripsi[2])
-console.log(decimalList[enkripsi[0]], decimalList[enkripsi[1]], decimalList[enkripsi[2]])
-
 let counter;
 let wordToBinary, codeFound, compiling = "";
 for(counter = 0; counter < enkripsi.split("").length; counter++){
